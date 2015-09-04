@@ -1,0 +1,222 @@
+@charset "utf-8";
+
+html {
+	background-color: dodgerblue;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-family: 'Sancreek', cursive;
+	font-size: 24px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #000000;
+}
+
+div.header {
+	background-color: dodgerblue;
+}
+
+div.header h1 {
+	font-family: 'Sancreek', cursive;
+	font-size: 80px;
+	text-align: center;
+	margin: 0;
+	padding-top: 20px;
+}
+
+div.header h1 a {
+	background-color: midnightblue;
+	color: #FF2C2C;
+	text-decoration: none;
+	border-radius: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+h2 {
+	font-family: 'Sancreek', cursive;
+	font-size: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: yellow;
+}
+
+strong {
+	font-family: 'Sancreek', cursive;
+	font-size: 32px;
+}
+
+/* p a {
+	target-new: tab; } */ /* Unsupported by many browsers */
+
+head * {
+	margin: 0
+}
+
+nav {
+	background-color: dodgerblue;
+	text-align: center;
+	margin: 0;
+}
+
+nav a {
+	font-family: serif;
+	font-size: 36px
+}
+
+ul {
+	font-family: 'Sancreek', cursive;
+	font-size: 24px;
+	margin-left: 15px;
+	margin-right: 15px;
+	line-height: 200%
+}
+
+em {
+	font-family: 'Sancreek', cursive;
+	font-size: 16px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+nav ul ul {
+	display: none; /* Ensures the dropdown menu stays disappeared unless activated */
+}
+
+nav ul li:hover > ul {
+	display: block; /*Ensures the dropdown menu appears when hovered over */
+}
+
+nav ul { /* Navigation bar details */
+	background: midnightblue;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 30px; /* Border curves */
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	box-shadow: 0 0 5px yellow;
+}
+
+nav ul:after {
+	content: ""; clear: both; display: block; /* Ensures the css is applied to the navigation bar */
+}
+
+nav ul li {
+	float: left; /* Ensure navigation bar headings get shown from left to right */
+}
+
+nav ul li:hover {
+	background: #FFFF66; /* Colour of the bar when hovered over */
+}
+
+
+nav ul li:hover a { /* Colour of the text when hovered over */
+	color: black;
+}
+
+nav ul li a { /*Text options for navigator header*/
+	display: block;
+	padding: 25px 50px;
+	color: #FFFF66;
+	text-decoration: none;
+	box-shadow: 0 0 5px;
+}
+
+nav ul ul { /*Dropdown details */
+	background: midnightblue;
+	border-radius: 0; /* Curves of dropdown menu */
+	padding: 0;
+	position: absolute;
+	top: 100%; /* Keeps dropdown menu below headings */
+	color: yellow;
+}
+
+nav ul ul li { /* Dropdown heading details */
+	float: none;
+	border-top: 1px solid white; /* Borders of the dropdown menu headings */
+	position: relative;
+}
+
+form {
+	font-size: 16px;
+	font-family: sans-serif;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#guidelinesPic {
+	display: block;
+	margin-left: auto;
+	float: right;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+table {
+	vertical-align: middle;
+	border: 1px solid black;
+}
+
+table td {
+	text-align: center;
+	border: 1px solid black;
+	font-family: 'Sancreek', cursive;
+	font-size: 24px;
+}
+
+table th {
+	border: 1px solid black;
+	font-family: 'Sancreek', cursive;
+	font-size: 48px;
+}
+
+#indexpicture {
+	float: right;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	margin-left: auto;
+}
+
+#AboutUsPic {
+	display: block;
+	margin-left: auto;
+	float: right;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#WhatPic {
+	display: block;
+	float: left;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+form {
+	float: right;
+	padding-left: 15px;
+	padding-right: 17%;
+	padding-top: 50px;
+}
+
+#signup {
+	text-align: center;
+}
+
+#signup ul {
+	list-style-position: inside;
+}
+
+#indextext {
+	text-align: center;
+	padding-top: 5%;
+}

@@ -18,7 +18,7 @@ p {
 }
 
 div.header {
-	background-color: blue;
+	background-color: dodgerblue;
 }
 
 div.header h1 {
@@ -26,6 +26,7 @@ div.header h1 {
 	font-size: 80px;
 	text-align: center;
 	margin: 0;
+	padding-top: 20px;
 }
 
 div.header h1 a {
@@ -59,7 +60,7 @@ head * {
 }
 
 nav {
-	background-color: blue;
+	background-color: dodgerblue;
 	text-align: center;
 	margin: 0;
 }
@@ -154,6 +155,8 @@ form {
 	display: block;
 	margin-left: auto;
 	float: right;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 table {
@@ -174,12 +177,12 @@ table th {
 	font-size: 48px;
 }
 
-div.picture {
-	text-align: center;
-}
-
-div.picture div {
-	font-size: 28px;
+#indexpicture {
+	float: right;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	margin-left: auto;
 }
 
 #AboutUsPic {
@@ -211,4 +214,9 @@ form {
 
 #signup ul {
 	list-style-position: inside;
+}
+
+#indextext {
+	text-align: center;
+	padding-top: 5%;
 }
